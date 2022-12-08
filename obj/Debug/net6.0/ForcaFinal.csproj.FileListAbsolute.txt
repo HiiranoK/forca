@@ -1,0 +1,15 @@
+C:\Users\Richard\source\repos\ForcaFinal\bin\Debug\net6.0\ForcaFinal.exe
+C:\Users\Richard\source\repos\ForcaFinal\bin\Debug\net6.0\ForcaFinal.deps.json
+C:\Users\Richard\source\repos\ForcaFinal\bin\Debug\net6.0\ForcaFinal.runtimeconfig.json
+C:\Users\Richard\source\repos\ForcaFinal\bin\Debug\net6.0\ForcaFinal.dll
+C:\Users\Richard\source\repos\ForcaFinal\bin\Debug\net6.0\ForcaFinal.pdb
+C:\Users\Richard\source\repos\ForcaFinal\obj\Debug\net6.0\ForcaFinal.csproj.AssemblyReference.cache
+C:\Users\Richard\source\repos\ForcaFinal\obj\Debug\net6.0\ForcaFinal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Richard\source\repos\ForcaFinal\obj\Debug\net6.0\ForcaFinal.AssemblyInfoInputs.cache
+C:\Users\Richard\source\repos\ForcaFinal\obj\Debug\net6.0\ForcaFinal.AssemblyInfo.cs
+C:\Users\Richard\source\repos\ForcaFinal\obj\Debug\net6.0\ForcaFinal.csproj.CoreCompileInputs.cache
+C:\Users\Richard\source\repos\ForcaFinal\obj\Debug\net6.0\ForcaFinal.dll
+C:\Users\Richard\source\repos\ForcaFinal\obj\Debug\net6.0\refint\ForcaFinal.dll
+C:\Users\Richard\source\repos\ForcaFinal\obj\Debug\net6.0\ForcaFinal.pdb
+C:\Users\Richard\source\repos\ForcaFinal\obj\Debug\net6.0\ForcaFinal.genruntimeconfig.cache
+C:\Users\Richard\source\repos\ForcaFinal\obj\Debug\net6.0\ref\ForcaFinal.dll
