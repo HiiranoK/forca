@@ -8,8 +8,8 @@ do
     Palavras palavra = new Palavras();
     Textos texto = new Textos();
     Console.WriteLine("Bem vindo ao jogo da forca =D");
-
-    string palavraSecreta = palavra.Escolhepalavra();
+    string categoria = palavra.EscolheCategoria();
+    string palavraSecreta = palavra.EscolhePalavra(categoria);
     char[] palavraOculta = new char[palavraSecreta.Length];
     char chute = ' ';
     var letrasValidas = new Regex("^[A-Z]$");
@@ -23,7 +23,15 @@ do
     foreach (char a in palavraSecreta)
     {
         palavraOculta[iterador] = a;
-        palavraOcultaDeValidacao[iterador] = '*';
+        if(a == ' ')
+        {
+            palavraOcultaDeValidacao[iterador] = ' ';
+        }
+        else
+        {
+            palavraOcultaDeValidacao[iterador] = '*';
+        }
+        
         iterador++;
     }
     iterador = 0;
@@ -32,7 +40,7 @@ do
     {
         bool acertou = false;
         texto.Desenho(tentativasRestantes);
-        texto.Exibir(palavraOcultaDeValidacao,letrasSelecionadas);
+        texto.Exibir(palavraOcultaDeValidacao,letrasSelecionadas,categoria.ToUpper());
         Console.WriteLine("faça um palpite");
         // armazena o input do player na variável chute.
         try
